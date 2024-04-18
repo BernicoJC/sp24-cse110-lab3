@@ -254,7 +254,8 @@ p.important{
 /* New Selectors */
 /* :has() */
 h3:has(+a){
-    background-color: peru;
+    background-color: tan;
+    color:greenyellow;
     font-size: 30px;
 }
 

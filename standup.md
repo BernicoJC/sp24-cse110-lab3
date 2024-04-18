@@ -5,6 +5,7 @@
 - [ ] **Yesterday's Accomplishments:**
 - [ ] **Today's Goals:**
 - [ ] **Blockers/Challenges:**
+- [ ] **Time Estimates Needed to Finish the Current Goal:**
 
 ## Subteams Updates
 
@@ -13,12 +14,14 @@
 - **Yesterday's Accomplishments:**
 - **Today's Goals:**
 - **Blockers/Challenges:**
+- **Time Estimates Needed to Finish the Current Goal:**
 
 ### Back End Subteam
 
 - **Yesterday's Accomplishments:**
 - **Today's Goals:**
 - **Blockers/Challenges:**
+- **Time Estimates Needed to Finish the Current Goal:**
 
 ## Additional Notes
 

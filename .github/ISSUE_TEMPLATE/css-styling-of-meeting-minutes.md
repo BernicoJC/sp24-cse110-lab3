@@ -8,3 +8,7 @@ assignees: BernicoJC
 ---
 
 # Issue: CSS Styling
+
+Things done:
+
+Comments:

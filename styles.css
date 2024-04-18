@@ -255,6 +255,7 @@ p.important{
 /* :has() */
 h3:has(+a){
     background-color: tan;
+    color:greenyellow;
     font-size: 30px;
 }
 

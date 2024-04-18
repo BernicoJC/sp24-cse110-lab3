@@ -6,7 +6,26 @@
         <meta name="description" content="A sample meeting minute for lab 2 of CSE 110">
         <meta name="author" content="Bernico Jansen Chandra">
         <meta name="viewport" content="width=device_width, initial_scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
+
         <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <style>
+            /* Internal CSS */
+            h1{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: rgb(0, 110, 100);
+                text-align: center;
+                border-style: groove;
+            }
+            nav{
+                color:color(srgb 255 255 0 / 0.1);
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -83,6 +102,7 @@
 
                 <br>
                 <h3>Comments</h3>
+                <p class = "comments">These are the comments <a href="#section2">members</a> brought up during the meeting.</p>
                 <ol>
                     <li>Don't forget to fill the survey on Stack</li>
                     <li>Don't forget to fill the when2meet, linked on Stack</li>
@@ -101,7 +121,7 @@
                 <img src="./images/9k.png" alt="Funny Picture for sample">
 
                 <br>
-                <h3>Audio</h3>
+                <h3 style="color: hsla(120, 100%, 50%, 0.5);">Audio</h3>
                 A sample audio:<br>
                 <audio controls>
                     <source src="./audio2.mp3" type="audio/mpeg">
@@ -125,13 +145,19 @@
                 <video controls width="400" height="300">
                     <source src="./video.mp4" type="audio/mpeg">
                     Video element not displayed
-                </video>
+                </video><br><br>
+
+                <h3>Link</h3>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">A very funny video</a>
+
+                <p class="important">All of these videos are relevant to this class.</p>
 
             </section>
 
             <hr>
             <section id="section5">
-                <h2>Form</h2>
+                <h2 style="color: aliceblue; font-family: Verdana, Geneva, Tahoma, sans-serif;">Form</h2>
+                <p>This form is only here for your experience next meeting.</p>
                 <form>
                     <fieldset>
                         <label for="name">Name: </label>
@@ -171,8 +197,9 @@
                             <option value="Google">Google</option>
                             <option value="Bing">Bing</option>
                             <option value="DuckDuckGo">DuckDuckGo</option>
-                        </select><br>
-
+                        </select>
+                    </fieldset>
+                    <fieldset>
                         <label for="suggestion">Suggestion:</label><br>
                         <textarea id="suggestion" name="suggestion" rows="5" cols="50">Input your suggestion for the next meetup here.
                         </textarea><br><br>
@@ -180,6 +207,7 @@
                         <button type="button">Submit</button>
                     </fieldset>
                 </form>
+                <p>Please answer this carefully.</p>
             </section>
         </main>
 

@@ -213,7 +213,7 @@ a[href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"]{
 
 /* Pseudo-class Selector */
 h2:hover{
-    color:goldenrod;
+    color:color-mix(in lch, yellow, pink);
 }
 
 /* Selector List */
@@ -234,7 +234,7 @@ ol>li{
 
 /* General sibling combinator */
 h2 ~ p{
-    background-color: color-mix(in lch, yellow, pink);
+    /* background-color: color-mix(in lch, yellow, pink); */
 }
 
 /* Adjacent sibling combinator */

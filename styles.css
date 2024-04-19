@@ -18,7 +18,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: var(--bg-color, color-mix(in lch, red, pink));
+    background-color: var(--bg-color, gray);
     padding: 10px 20px 10px 20px;
     text-align: left;
     margin: 0px 10px 0px 10px;
@@ -234,7 +234,7 @@ ol>li{
 
 /* General sibling combinator */
 h2 ~ p{
-    background-color: yellow;
+    background-color: color-mix(in lch, yellow, pink);
 }
 
 /* Adjacent sibling combinator */

@@ -8,6 +8,7 @@
 /* Global Styles */
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --bg-color: #313338;
     background-color: #313338;
     color:wheat;
     padding: 2cm;
